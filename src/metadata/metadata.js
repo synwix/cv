@@ -12,8 +12,8 @@ module.exports = {
   },
   skills: [
     ['Java', '++++'],
-    ['C#', '+++'],
-    ['C/C++', '+++'],
+    ['C#', '++++'],
+    ['C/C++', '++++'],
     ['Python', '++++'],
     ['JavaScript', '++++'],
     ['Node JS', '+++'],
@@ -32,10 +32,10 @@ module.exports = {
   plays: [
     {
       title: 'Chat-App',
-      written: 'Full-Stack Web App',
+      written: 'Full-Stack Web App\r\n https://chat-app-alp.netlify.app/',
       badges: ['JavaScript', 'React JS', 'HTML', 'CSS', 'Chat Engine API'],
       contents: `
-The Web Application that I developed with the use of JavaScript, React, HTML, CSS in Front-End and with the usage of Chat Engine as the Back-End to store messages in real time, at which I used JS to communicate with the API`
+The Web Application that I developed with the use of JavaScript, React, HTML, CSS in Front-End and with the usage of Chat Engine as the Back-End to store messages in real-time, at which I used JS to communicate with the API`
     },
     {
       title: 'Teknofest Machine Learning Competition',
