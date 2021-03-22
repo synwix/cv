@@ -6,11 +6,52 @@
     <title>{{ name }}. {{ title }}</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
     <link rel="stylesheet" href="styles.css">
+    <base target="_blank">
 </head>
 <body>
 <div class="container page">
+
+    <a href="https://github.com/synwix" class="github-corner screen" aria-label="View my Github account">
+        <svg width="80" height="80" viewBox="0 0 250 250"
+             style="fill:#deeef9; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
+            <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+            <path
+                d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+                fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+            <path
+                d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+                fill="currentColor" class="octo-body"></path>
+        </svg>
+    </a>
+    <style>
+        .github-corner:hover .octo-arm {
+            animation: octocat-wave 560ms ease-in-out
+        }
+
+        @keyframes octocat-wave {
+            0%, 100% {
+                transform: rotate(0)
+            }
+            20%, 60% {
+                transform: rotate(-25deg)
+            }
+            40%, 80% {
+                transform: rotate(10deg)
+            }
+        }
+
+        @media (max-width: 500px) {
+            .github-corner:hover .octo-arm {
+                animation: none
+            }
+
+            .github-corner .octo-arm {
+                animation: octocat-wave 560ms ease-in-out
+            }
+        }
+    </style>
     <div class="row">
         <div class="col-md-6 col-print-6">
             <h1>{{ name }}<br/>{{ title }}</h1>
@@ -18,16 +59,17 @@
                 <time datetime="{{ buildinfo.date }}" class="text-muted">Last update: {{ updated }}</time>
             </p>
             <p>
-                <span class="screen"><a href="{{ pdfFileName }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Download PDF version</a></span>
-                <span class="print">The online version is available at <a href="{{ baseUrl }}" class="text-nowrap"><i
-                    class="fa fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
+                <span class="screen"><a href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>Download PDF version</a></span>
+                <span class="print">Up-to-date version of CV is available at <a href="{{ baseUrl }}"
+                                                                                class="text-nowrap"><i
+                    class="fab fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
             </p>
         </div>
         <div class="col-md-6 col-print-6">
             <dl class="row">
                 {{#each facts}}
-                <dt class="col-md-3">{{ @key }}</dt>
-                <dd class="col-md-9">{{{ this }}}</dd>
+                <dt class="col-4 col-md-5 text-md-right text-print-right font-weight-normal">{{ @key }}:</dt>
+                <dd class="col-8 col-md-7">{{{ this }}}</dd>
                 {{/each}}
             </dl>
         </div>
@@ -46,10 +88,7 @@
     </div>
 
     <p>
-        English poet, playwright and actor, widely regarded as the greatest writer in the English language
-        and the world's pre-eminent dramatist. Often called England's national poet and the "Bard of Avon".
-        My extant work is including collaborations, consist of approximately 38 plays, 154 sonnets,
-        two long narrative poems and a few other verses, some of uncertain authorship.
+        Extensive knowledge of Data Structures and Algorithms, Object-Oriented Programming and Machine Learning. 2 years of experience and knowledge on Java, C, C#, Python and JavaScript. 2 years of study and experience on Machine Learning and Machine Learning frameworks such as Tensorflow and Keras, I also have several certificates from the Stanford Universities Machine Learning professor Andrew Ng's courses. I'm somewhat experienced in Front-end and Back-end engineering with 2 years of experience, with the usage of several frameworks such as React and MongoDB.
     </p>
 
     <h2>Professional Experience</h2>
@@ -70,26 +109,97 @@
     </div>
     {{/each}}
 
+    <h3>Skills</h3>
+    <dl class="row">
+        <dt class="col-md-2">Machine Learning</dt>
+        <dd class="col-md-10 mb-3">
+            I studied in a Machine Learning  bootcamp at Datajarlabs, and also have taken an online course of Machine Learning by Andrew Ng from Stanford University. I have been reading and researching papers in the field from various resources. I have done a project on Exploratory Data Analysis and done many assignments regarding model training with Linear Regression and Logistics Regression, and Boosting Algorithms at the bootcamp of Datajarlabs.
+            <a href="https://datajarlabs.com/">Here</a>.
+        </dd>
+
+        <dt class="col-md-2">Java Programming</dt>
+        <dd class="col-md-10 mb-3">
+            I programmed in Java for a year before my first year and I have taken two programming courses in two semesters, both in java, done several projects as assignments and as well as side projects. 
+        </dd>
+
+        <dt class="col-md-2">C Programming</dt>
+        <dd class="col-md-10 mb-3">
+            I have taken a Systems Programming course which also had C programming in it’s  syllabus, which I learned extensively myself apart from the course work. 
+        </dd>
+
+        <dt class="col-md-2">Linux and Shell</dt>
+        <dd class="col-md-10 mb-3">
+            All my courses on Programming and Algorithms required using linux as the OS for their labs and lessons. The Systems Programming class was focused mostly on unix and linux, consisting of unix kernel, shell, file system, shell programming, task control, signal capture and communication between tasks. 
+        </dd>
+
+        <dt class="col-md-2">Data Structures and Algorithms</dt>
+        <dd class="col-md-10 mb-3">
+            The Programming, Computer Science and Discrete Mathematics for Computer Science courses has taught me the ability of Algorithmic thinking by both theory and applying.
+        </dd>
+
+        <dt class="col-md-2">Frontend</dt>
+        <dd class="col-md-10 mb-3">
+            I have used JavaScript, HTML and CSS on my small and relatively big web application projects, and I consistently learn new tools on this field such as frontend frameworks such as Angular and Vue, with Flutter and Figma to help the design procsess.
+        </dd>
+
+        <dt class="col-md-2">Backend</dt>
+        <dd class="col-md-10 mb-3">
+            I have used backend frameworks for both my small and relatively big web application projects such as NodeJS, Django and Rails, and backend services such as Firebase and AWS, and I consistently learn new frameworks and tools.
+
+    </dl>
+
     <h2>Education</h2>
-    <p>King Edward VI Grammar School in Stratford-upon-Avon [1571 - 1578]</p>
+    <p>TOBB ETU Computer Engineering Bachelor's Degree [2019 - Ongoing]</p>
 
-    <h2>Additional Experience</h2>
+    <h2>Languages</h2>
+    <p>
+        Turkish - Native
+    </p>
+    <p>
+        English - C2/Fluent
+    </p>
+    <p>
+        German - A1/Beginner
+    </p>
+    
 
-    {{#each experience}}
-    <div class="card mt-4">
-        <div class="card-body">
-            <div class="mb-2"><strong>{{ header }}</strong></div>
-
-            {{{markdown contents }}}
-
-            <div>
-                {{#each skills }}
-                <span class="badge badge-primary">{{ this }}</span>
-                {{/each}}
-            </div>
-        </div>
-    </div>
-    {{/each}}
+    <h2>Certifications</h2>
+    <ul>
+        <li> <a
+            href="https://www.coursera.org/account/accomplishments/certificate/6MCXCNUV5EVQ">Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning - Coursera
+            6MCXCNUV5EVQ
+            </a> - 01 May 2020 
+        </li>
+        <li><a href="https://www.coursera.org/account/accomplishments/certificate/WJLWN37S3Y8Z">Convolutional Neural Networks in TensorFlow  - Coursera
+            WJLWN37S3Y8Z
+            </a> -
+            03 May 2020
+        </li>
+        <li>
+            <a href="https://www.coursera.org/account/accomplishments/certificate/4WZPHXYKWVVG">Neural Networks and Deep Learning - Coursera
+                4WZPHXYKWVVG
+                </a> - 16 May
+            2020
+        </li>
+        <li>
+            <a href="https://www.coursera.org/account/accomplishments/certificate/MAN527VXLGZ8">Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization - Coursera
+                MAN527VXLGZ8                
+                </a> - 18 May
+            2020
+        </li>
+        <li>
+            <a href="https://www.coursera.org/account/accomplishments/certificate/U8JU3C5GN8AX">Structuring Machine Learning Projects - Coursera
+                U8JU3C5GN8AX                
+                </a> - 19 May
+            2020
+        </li>
+        <li>
+            <a href="https://www.coursera.org/account/accomplishments/certificate/6C6FKPLZEXH8">Convolutional Neural Networks - Coursera
+                6C6FKPLZEXH8                         
+                </a> - 25 May
+            2020
+        </li>
+    </ul>
 </div>
 </body>
 </html>
