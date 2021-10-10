@@ -12,24 +12,32 @@ module.exports = {
   },
   skills: [
     ['Java', '++++'],
-    ['C#', '++++'],
-    ['C/C++', '++++'],
+    ['C#', '+++'],
+    ['C/C++', '+++'],
     ['Python', '++++'],
     ['JavaScript', '++++'],
-    ['Node JS', '+++'],
+    ['Node JS', '++'],
     ['Firebase', '+++'],
-    ['Matlab', '++'],
+    ['Matlab', '+'],
     ['React JS', '+++'],
-    ['Django', '+++'],
+    ['Redux-Saga', '+++'],
+    ['Django', '++'],
     ['Git', '+++'],
     ['HTML', '+++'],
     ['CSS', '+++'],
     ['Keras', '++++'],
     ['Tensorflow', '++++'],
-    ['.NET', '+++'],
-    ['npm', '+++'],
+    ['.NET', '+'],
+    ['npm', '++'],
   ],
   plays: [
+    {
+      title: 'Software Engineer Internship at JotForm',
+      written: '4 Months of Internship as a Front-End Developer at JotForm between May 2021 - Sep 2021 jotform.com',
+      badges: ['JavaScript', 'React JS','Redux-Saga' , 'HTML', 'CSS'],
+      contents: `
+Worked with a team of developers, worked on a project that lasted for 4 months from start to finish as the front-end developer of the team. I have used JS, React and Redux-Saga for side effect management. Worked together closely with the back-end developer, UI Developer and the designer of our team closely, from which I have gained a great experience at project management as a team and working as a team on a project.`
+    },
     {
       title: 'Chat-App',
       written: 'Full-Stack Web App\r\n https://chat-app-alp.netlify.app/',
@@ -42,7 +50,7 @@ The Web Application that I developed with the use of JavaScript, React, HTML, CS
       written: 'Machine Learning Competition',
       badges: ['Keras', 'Tensorflow', 'Machine Learning Research'],
       contents: `
-I'm currently participating in a Machine Learning competition project as a group in Teknofest, which involves object detection we use Keras to develop a Machine Learning model for.
+We were a finalist with our team in a Machine Learning competition project as a group in Teknofest, which involves object detection we use Keras to develop a Machine Learning model for.
 `
     },
   ]
