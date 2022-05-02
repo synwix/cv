@@ -17,6 +17,7 @@ module.exports = {
     ['Python', '++++'],
     ['JavaScript', '++++'],
     ['Node JS', '++'],
+    ['GraphQL', '++'],
     ['Firebase', '+++'],
     ['Matlab', '+'],
     ['React JS', '+++'],
@@ -31,6 +32,13 @@ module.exports = {
     ['npm', '++'],
   ],
   plays: [
+     {
+      title: 'Software Engineer Internship at JotForm',
+      written: '4 Months of Internship as a Front-End Developer at JotForm between Jan 2022 - Apr 2022 jotform.com',
+      badges: ['JavaScript', 'React JS', 'Redux-Saga', 'GraphQL', 'NodeJS', 'Express', 'Apollo', 'HTML', 'CSS','Nx Monorepo'],
+      contents: `
+Worked on two projects, both on which I have used GraphQL, Apollo, Monorepo technologies such as nx, React and Redux on front-end and NodeJS with express on the back-end. I have deployed several test applications for in-house use of the company with the use of Vercel.`
+    },
     {
       title: 'Software Engineer Internship at JotForm',
       written: '4 Months of Internship as a Front-End Developer at JotForm between May 2021 - Sep 2021 jotform.com',
