@@ -11,40 +11,51 @@ module.exports = {
     Email: '<a href="mailto:m.alp.krtp@gmail.com">m.alp.krtp@gmail.com</a>',
   },
   skills: [
+    ['JavaScript', '++++'],
+    ['React', '++++'],
+    ['Redux', '++++'],
+    ['Next.js', '++++'],
+    ['Node JS', '++++'],
+    ['GraphQL', '+++'],
+    ['Git', '++++'],
+    ['HTML', '++++'],
+    ['CSS', '++++'],
+    ['SASS', '++++'],
+    ['Tailwind', '++++'],
+    ['npm', '++++'],
+    ['Webpack', '++++'],
     ['Java', '++++'],
     ['C#', '+++'],
     ['C/C++', '+++'],
     ['Python', '++++'],
-    ['JavaScript', '++++'],
-    ['Node JS', '++'],
-    ['GraphQL', '++'],
-    ['Firebase', '+++'],
+    ['Firebase', '++'],
     ['Matlab', '+'],
-    ['React JS', '+++'],
-    ['Redux-Saga', '+++'],
     ['Django', '++'],
-    ['Git', '+++'],
-    ['HTML', '+++'],
-    ['CSS', '+++'],
     ['Keras', '++++'],
     ['Tensorflow', '++++'],
     ['.NET', '+'],
-    ['npm', '++'],
   ],
   plays: [
      {
       title: 'Software Engineer Internship at JotForm',
-      written: '4 Months of Internship as a Front-End Developer at JotForm between Jan 2022 - Apr 2022 jotform.com',
+      written: 'Internship as a Front-End Developer at JotForm between Sep 2022 - Now jotform.com',
+      badges: ['JavaScript', 'React', 'Redux-Saga', 'Next.js', 'Node.js', 'SASS', 'Tailwind'],
+      contents: `
+Worked with a team of developers on a project that lasted for 4 months from start to finish as the front-end developer of the team. I have used JS, React and Redux-Saga for side effect management. Worked together closely with the back-end developer, UI Developer and the designer of our team, from which I have gained a great experience at front-end development, project management and working as a team on a project.`
+     },
+     {
+      title: 'Software Engineer Internship at JotForm',
+      written: '4 Months of Internship as a Full-Stack Developer at JotForm between Jan 2022 - Apr 2022 jotform.com',
       badges: ['JavaScript', 'React JS', 'Redux-Saga', 'GraphQL', 'NodeJS', 'Express', 'Apollo', 'HTML', 'CSS','Nx Monorepo'],
       contents: `
-Worked on two projects, both on which I have used GraphQL, Apollo, Monorepo technologies such as nx, React and Redux on front-end and NodeJS with express on the back-end. I have deployed several test applications for in-house use of the company with the use of Vercel.`
+Worked on two projects, both on which I have used GraphQL, Apollo, Monorepo technologies such as nx, React and Redux on front-end and NodeJS with express on the back-end. I have deployed several applications for in-house use of the company with the use of Vercel.`
     },
     {
       title: 'Software Engineer Internship at JotForm',
       written: '4 Months of Internship as a Front-End Developer at JotForm between May 2021 - Sep 2021 jotform.com',
       badges: ['JavaScript', 'React JS','Redux-Saga' , 'HTML', 'CSS'],
       contents: `
-Worked with a team of developers, worked on a project that lasted for 4 months from start to finish as the front-end developer of the team. I have used JS, React and Redux-Saga for side effect management. Worked together closely with the back-end developer, UI Developer and the designer of our team closely, from which I have gained a great experience at project management as a team and working as a team on a project.`
+Worked with a team of developers on a project that lasted for 4 months from start to finish as the front-end developer of the team. I have used JS, React and Redux-Saga for side effect management. Worked together closely with the back-end developer, UI Developer and the designer of our team, from which I have gained a great experience at front-end development, project management and working as a team on a project.`
     },
     {
       title: 'Chat-App',
