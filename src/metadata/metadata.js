@@ -41,7 +41,7 @@ module.exports = {
       written: 'Internship as a Front-End Developer at JotForm between Sep 2022 - Now jotform.com',
       badges: ['JavaScript', 'React', 'Redux-Saga', 'Next.js', 'Node.js', 'SASS', 'Tailwind'],
       contents: `
-Worked with a team of developers on a project that lasted for 4 months from start to finish as the front-end developer of the team. I have used JS, React and Redux-Saga for side effect management. Worked together closely with the back-end developer, UI Developer and the designer of our team, from which I have gained a great experience at front-end development, project management and working as a team on a project.`
+Working an a project in a team of four as the Frontend Developer of the said team.`
      },
      {
       title: 'Software Engineer Internship at JotForm',
