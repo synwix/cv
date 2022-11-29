@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Mehmet Alp Karatepe',
-  title: 'Computer Engineering Student',
+  title: 'Fullstack Developer',
   baseUrl: 'https://synwix.github.io/cv/',
   facts: {
     Residence: '<a href="https://goo.gl/maps/AqFBJBhf5AQEWgAG7"><i class="fa fa-home fact-icon"></i>Ankara, Turkey</a>',
