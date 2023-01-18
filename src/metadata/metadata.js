@@ -39,14 +39,14 @@ module.exports = {
   plays: [     
     {
       title: 'Software Engineer at Wick Hunter',
-      written: 'Internship as a Front-End Developer at JotForm between Sep 2022 - Dec 2022 wickhunter.io',
+      written: 'Full-Stack Developer at Wick Hunter between Jan 2023 - now wickhunter.io',
       badges: ['JavaScript', 'React', 'Redux-Saga', 'Next.js', 'Node.js'],
       contents: `
 Implemented the backend of the trading bot for several exchange markets, using Node.js and websockets. Helped on the front-end with the use of React and JavaScript/TypeScript`
      },
      {
       title: 'Software Engineer Internship at JotForm',
-      written: 'Internship as a Front-End Developer at JotForm between Sep 2022 - Dec 2022 jotform.com',
+      written: '4 Months of Internship as a Front-End Developer at JotForm between Sep 2022 - Dec 2022 jotform.com',
       badges: ['JavaScript', 'React', 'Redux-Saga', 'Next.js', 'Node.js', 'SASS', 'Tailwind'],
       contents: `
 Working an a project in a team of four as the Frontend Developer of the said team.`
