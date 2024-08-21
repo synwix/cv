@@ -1,4 +1,4 @@
-name: Deploy CV
+name: Publish to GH Pages
 
 on:
   push:
