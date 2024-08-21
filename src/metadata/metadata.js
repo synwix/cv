@@ -11,10 +11,10 @@ module.exports = {
     Email: '<a href="mailto:m.alp.krtp@gmail.com">m.alp.krtp@gmail.com</a>',
   },
   skills: [
-    ['JavaScript', '++++'],
-    ['React', '++++'],
+    ['JavaScript', '+++++'],
+    ['React', '+++++'],
     ['Redux', '++++'],
-    ['Next.js', '++++'],
+    ['Next.js', '+++++'],
     ['Node JS', '++++'],
     ['GraphQL', '+++'],
     ['Git', '++++'],
