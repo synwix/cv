@@ -1,28 +1,22 @@
 name: Publish to GH Pages
-
 on:
   push:
     branches:
-      - main
-
+      - master
 jobs:
   build:
-    runs-on: ubuntu-latest
-
+    runs-on: macos-latest
     steps:
     - uses: actions/checkout@v2
-
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
+    - name: Setup Node
+      uses: actions/setup-node@v1
       with:
-        node-version: '18.x' # or '16.x'
-
+        node-version: '12.x'
     - run: npm install
-
     - run: npm run build
-
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: dist
