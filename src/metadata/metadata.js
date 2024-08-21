@@ -42,7 +42,7 @@ module.exports = {
       written: 'Full-Stack Developer at Wick Hunter between Jan 2023 - now wickhunter.io',
       badges: ['JavaScript', 'React', 'Redux-Saga', 'Next.js', 'Node.js'],
       contents: `
-Implemented the backend of the trading bot for several exchange markets, using Node.js and websockets. Helped on the front-end with the use of React and JavaScript/TypeScript`
+Implemented the backend of the trading bot for several exchange markets, using Node.js and websockets. Helped on the front-end with the use of React and specifically Next.js and JavaScript/TypeScript`
      },
      {
       title: 'Software Engineer Internship at JotForm',
