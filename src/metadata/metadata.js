@@ -11,18 +11,20 @@ module.exports = {
     Email: '<a href="mailto:m.alp.krtp@gmail.com">m.alp.krtp@gmail.com</a>',
   },
   skills: [
+    ['TypeScript', '+++++'],
     ['JavaScript', '+++++'],
     ['React', '+++++'],
     ['Redux', '++++'],
     ['Next.js', '+++++'],
     ['Node JS', '++++'],
     ['GraphQL', '+++'],
-    ['Git', '++++'],
-    ['HTML', '++++'],
-    ['CSS', '++++'],
+    ['Git', '+++++'],
+    ['HTML', '+++++'],
+    ['CSS', '+++++'],
     ['SASS', '++++'],
     ['Tailwind', '++++'],
-    ['MongoDB', '++'],
+    ['PostgreSQL', '++++'],
+    ['MongoDB', '+++'],
     ['npm', '+++'],
     ['Webpack', '+++'],
     ['Java', '++++'],
@@ -40,16 +42,16 @@ module.exports = {
     {
       title: 'Software Engineer at Wick Hunter',
       written: 'Full-Stack Developer at Wick Hunter between Jan 2023 - now wickhunter.io',
-      badges: ['JavaScript', 'React', 'Redux-Saga', 'Next.js', 'Node.js'],
+      badges: ['TypeScript', 'JavaScript', 'React', 'Redux-Saga', 'Next.js', 'Node.js', 'MySQL'],
       contents: `
-Implemented the backend of the trading bot for several exchange markets, using Node.js and websockets. Helped on the front-end with the use of React and specifically Next.js and JavaScript/TypeScript`
+Implemented the backend of the trading bot for several exchange markets, using Node.js and websockets. Worked on the front-end with the use of React, Next.js and JavaScript/TypeScript`
      },
      {
       title: 'Software Engineer Internship at JotForm',
       written: '4 Months of Internship as a Front-End Developer at JotForm between Sep 2022 - Dec 2022 jotform.com',
       badges: ['JavaScript', 'React', 'Redux-Saga', 'Next.js', 'Node.js', 'SASS', 'Tailwind'],
       contents: `
-Working an a project in a team of four as the Frontend Developer of the said team.`
+Worked on a project in a team of four as the Frontend Developer of the said team.`
      },
      {
       title: 'Software Engineer Internship at JotForm',
@@ -66,18 +68,11 @@ Worked on two projects, both on which I have used GraphQL, Apollo, Monorepo tech
 Worked with a team of developers on a project that lasted for 4 months from start to finish as the front-end developer of the team. I have used JS, React and Redux-Saga for side effect management. Worked together closely with the back-end developer, UI Developer and the designer of our team, from which I have gained a great experience at front-end development, project management and working as a team on a project.`
     },
     {
-      title: 'Chat-App',
-      written: 'Full-Stack Web App\r\n https://chat-app-alp.netlify.app/',
-      badges: ['JavaScript', 'React JS', 'HTML', 'CSS', 'Chat Engine API'],
-      contents: `
-The Web Application that I developed with the use of JavaScript, React, HTML, CSS in Front-End and with the usage of Chat Engine as the Back-End to store messages in real-time, at which I used JS to communicate with the API. You can test my web app with Username: Tester and Password: Tester.`
-    },
-    {
       title: 'Teknofest Machine Learning Competition',
       written: 'Machine Learning Competition',
       badges: ['Keras', 'Tensorflow', 'Machine Learning Research'],
       contents: `
-We were a finalist with our team in a Machine Learning competition project as a group in Teknofest, which involves object detection we use Keras to develop a Machine Learning model for.
+We were one of the finalists with our team in a Machine Learning competition project as a group in Teknofest, which involved object detection and maneuvering we used Keras to develop a Machine Learning model for.
 `
     },
   ]
