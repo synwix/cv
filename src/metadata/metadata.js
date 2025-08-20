@@ -41,7 +41,7 @@ module.exports = {
   plays: [     
     {
       title: 'Software Engineer at Wick Hunter',
-      written: 'Full-Stack Developer at Wick Hunter between Jan 2023 - now wickhunter.io',
+      written: 'Full-Stack Developer at Wick Hunter between Jan 2023 - Jan 2025 wickhunter.io',
       badges: ['TypeScript', 'JavaScript', 'React', 'Redux-Saga', 'Next.js', 'Node.js', 'MySQL'],
       contents: `
 Implemented the backend of the trading bot for several exchange markets, using Node.js and websockets. Worked on the front-end with the use of React, Next.js and JavaScript/TypeScript`
