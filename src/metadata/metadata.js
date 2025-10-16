@@ -44,7 +44,8 @@ module.exports = {
       written: 'Full-Stack Developer at Wick Hunter between Jan 2023 - Jan 2025 wickhunter.io',
       badges: ['TypeScript', 'JavaScript', 'React', 'Redux-Saga', 'Next.js', 'Node.js', 'MySQL'],
       contents: `
-Implemented the backend of the trading bot for several exchange markets, using Node.js and websockets. Worked on the front-end with the use of React, Next.js and JavaScript/TypeScript`
+Implemented the core backend infrastructure using Node.js, architecting a high-throughput, low-latency system that processed real-time market data from multiple exchanges, with all kinds of API's and via WebSockets. Developed a responsive and intuitive frontend with React, Next.js, and TypeScript, enabling users to configure strategies and monitor performance in real-time. My work spanned the full development lifecycle, from system design and API integration to deployment and performance optimization.
+`
      },
      {
       title: 'Software Engineer Internship at JotForm',
